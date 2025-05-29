@@ -67,7 +67,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     <Link to="/#contact" className={`nav-link ${effectiveActiveSection === 'contact' ? 'active' : ''}`}>
                         CONTACT
                     </Link>
-                    <a href="/Resume_Changhee_Lee.pdf" className="nav-link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#000' }}>
+                    <a href="/Resume_Changhee_Lee_.pdf" className="nav-link" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: '#000' }}>
                         RESUME
                     </a>
                     <a href="https://github.com/cl868" className="social-icon" target="_blank" rel="noopener noreferrer">
