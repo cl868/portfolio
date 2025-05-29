@@ -52,7 +52,7 @@ export const Work = () => {
                         </div>
                     </div>
                 </div>
-                {/* Portfolio Item 4 - CHELCI (moved down) */}
+                {/* Portfolio Item 4 - CHELCI (moved down)
                 <div className="work-item">
                     <div className="work-item-content">
                         <div className="work-item-text">
@@ -68,6 +68,7 @@ export const Work = () => {
                         </div>
                     </div>
                 </div>
+                */}
             </div>
         </section>
     );
