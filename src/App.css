@@ -1,0 +1,30 @@
+/* Empty or original styles if any */
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure text is visible */
+p, h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+}
+
+/* Ensure proper spacing between sections */
+section + section {
+  margin-top: 2rem;
+}
