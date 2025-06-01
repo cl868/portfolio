@@ -73,7 +73,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                     <a href="https://github.com/cl868" className="social-icon" target="_blank" rel="noopener noreferrer">
                         <img src="/github.svg" alt="Github" />
                     </a>
-                    <a href="www.linkedin.com/in/changhee-chelci-lee" className="social-icon" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linkedin.com/in/changhee-chelci-lee" className="social-icon" target="_blank" rel="noopener noreferrer">
                         <img src="/linkedin.svg" alt="Linkedin" />
                     </a>
                 </div>
