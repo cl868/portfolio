@@ -10,9 +10,9 @@ export const About = () => {
                         <p className="about-paragraph">
                             I am a product designer with a background in full stack development, passionate about building functional digital experiences. I graduated from Cornell University with a degree in Computer Science, where I built a strong foundation in software engineering, systems thinking, and human-centered design.
                             <br /><br />
-                            I bring a unique blend of expertise across software engineering, project management, and business analysis, allowing me to approach projects with both technical depth and strategic vision. With hands-on experience in UI/UX design, product strategy, and web development, I bring a multidisciplinary approach to solving real-world problems. I’ve led the design and development of end-to-end digital products—translating user insights into elegant interfaces and production-ready code.
+                            I bring a unique blend of expertise across software engineering, project management, and business analysis, allowing me to approach projects with both technical depth and strategic vision. With hands-on experience in UI/UX design, product strategy, and web development, I bring a multidisciplinary approach to solving real-world problems. I've led the design and development of end-to-end digital products, translating user insights into elegant interfaces and production-ready code.
                             <br /><br />
-                            With a strong focus on UX design and frontend web development, I bridge the gap between user needs and technical implementation—ensuring that every product I touch is not only built right, but built smart.
+                            With a strong focus on UX design and frontend web development, I bridge the gap between user needs and technical implementation, ensuring that every product I touch is not only built right, but built smart.
                             <br /><br />
                             
                         </p>
@@ -34,19 +34,19 @@ export const About = () => {
                                 <div className="skill-category">
                                     <h4 className="skill-category-title">Design</h4>
                                     <div className="skill-tags">
-                                        <span className="skill-tag">Figma</span>
-                                        <span className="skill-tag">UI/UX Design</span>
-                                        <span className="skill-tag">Prototyping</span>
-                                        <span className="skill-tag">Wireframing</span>
+                                        <span className="skill-tag2">Figma</span>
+                                        <span className="skill-tag2">UI/UX Design</span>
+                                        <span className="skill-tag2">Prototyping</span>
+                                        <span className="skill-tag2">Wireframing</span>
                                     </div>
                                 </div>
                                 <div className="skill-category">
                                     <h4 className="skill-category-title">Tools</h4>
                                     <div className="skill-tags">
-                                        <span className="skill-tag">Github</span>
-                                        <span className="skill-tag">JIRA</span>
-                                        <span className="skill-tag">Trello</span>
-                                        <span className="skill-tag">Slack</span>
+                                        <span className="skill-tag3">Github</span>
+                                        <span className="skill-tag3">JIRA</span>
+                                        <span className="skill-tag3">Trello</span>
+                                        <span className="skill-tag3">Slack</span>
                                     </div>
                                 </div>
                             </div>

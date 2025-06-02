@@ -26,7 +26,7 @@ export const Work = () => {
                         <div className="work-item-text">
                             <div className="work-item-subtitle">MOBILE | Gen-AI | B2C</div>
                             <h3 className="work-item-title">SOUFFLÉ</h3>
-                            <p className="work-item-description">AI-powered social platform for discovering, sharing, and booking curated travel experiences from friends and creators.</p>
+                            <p className="work-item-description">AI-powered social platform for discovering, sharing, and booking curated travel experiences from friends and creators</p>
                             <a href="/souffle" className="work-item-button">Learn More</a>
                         </div>
                         <div className="work-item-image">
