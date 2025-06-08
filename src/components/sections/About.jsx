@@ -8,7 +8,7 @@ export const About = () => {
                     <div className="about-text-container">
                         <h2 className="about-heading">ABOUT ME</h2>
                         <p className="about-paragraph">
-                            I am a product designer with a background in full stack development, passionate about building functional digital experiences. I graduated from Cornell University with a degree in Computer Science, where I built a strong foundation in software engineering, systems thinking, and human-centered design.
+                            I am a software engineer with a background in full stack development, passionate about building functional digital experiences. I graduated from Cornell University with a degree in Computer Science, where I built a strong foundation in software engineering, systems thinking, and human-centered design.
                             <br /><br />
                             I bring a unique blend of expertise across software engineering, project management, and business analysis, allowing me to approach projects with both technical depth and strategic vision. With hands-on experience in UI/UX design, product strategy, and web development, I bring a multidisciplinary approach to solving real-world problems. I've led the design and development of end-to-end digital products, translating user insights into elegant interfaces and production-ready code.
                             <br /><br />
