@@ -43,7 +43,7 @@ function App() {
   }, [isLoaded]);
 
   return (
-    <Router basename="/portfolio">
+    <Router basename="/">
       <ScrollToHash />
       {!isLoaded ? (
         <LoadingScreen onComplete={() => {
