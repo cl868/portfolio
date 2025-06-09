@@ -43,7 +43,7 @@ function App() {
   }, [isLoaded]);
 
   return (
-    <Router basename="/">
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToHash />
       {!isLoaded ? (
         <LoadingScreen onComplete={() => {
