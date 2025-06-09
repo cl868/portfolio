@@ -100,11 +100,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         RESUME
                     </a>
                     <div className="social-links">
-                        <a href="https://instagram.com" className="social-icon" target="_blank" rel="noopener noreferrer">
-                            <img src="/instagram.svg" alt="Instagram" />
+                        <a href="https://github.com/cl868" className="social-icon" target="_blank" rel="noopener noreferrer">
+                            <img src="/github.svg" alt="Github" />
                         </a>
-                        <a href="https://twitter.com" className="social-icon" target="_blank" rel="noopener noreferrer">
-                            <img src="/twitter.svg" alt="Twitter" />
+                        <a href="https://linkedin.com/in/changhee-chelci-lee" className="social-icon" target="_blank" rel="noopener noreferrer">
+                            <img src="/linkedin.svg" alt="Linkedin" />
                         </a>
                     </div>
                 </div>
