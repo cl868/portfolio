@@ -244,6 +244,135 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .souffle-page {
+        padding: 1rem;
+        padding-top: 60px;
+    }
+    .container {
+        padding: 1rem;
+        max-width: 98vw;
+    }
+    .souffle-header-row {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .project-meta-block {
+        margin-left: 0;
+        margin-top: 2rem;
+        min-width: 0;
+    }
+    .project-brief {
+        margin-left: 0;
+        margin-top: 2rem;
+        max-width: 100vw;
+    }
+    .project-brief-label, .project-brief-desc {
+        margin-left: 0;
+    }
+    .final-image {
+        width: 80%;
+        max-width: 350px;
+    }
+    .feature-image {
+        width: 100%;
+        max-width: 98vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .souffle-page {
+        padding: 0.5rem;
+        padding-top: 40px;
+    }
+    .container {
+        padding: 0.5rem;
+    }
+    .project-title {
+        font-size: 1.2rem !important;
+    }
+    .project-content h2 {
+        font-size: 1.2rem;
+    }
+    .project-content p, .project-content li {
+        font-size: 0.8rem !important;
+    }
+    .project-brief-label {
+        font-size: 0.9rem;
+    }
+    .project-brief-desc {
+        font-size: 0.9rem;
+        width: 98vw;
+    }
+    .final-image {
+        width: 98%;
+        max-width: 180px;
+    }
+    .feature-image {
+        width: 100%;
+        max-width: 98vw;
+    }
+    .meta-info-row {
+        flex-direction: column !important;
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        width: 100% !important;
+    }
+    .project-meta-block,
+    .problem-section,
+    .final-prototype-label,
+    .final-divider,
+    .meta-divider,
+    .reflection-section-label,
+    .conclusion-section-label,
+    .conclusion-desc {
+        margin-left: 0 !important;
+        max-width: 100vw !important;
+        width: 100vw !important;
+    }
+    .souffle-header-row {
+        flex-direction: column !important;
+        gap: 1rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .feature-image,
+    .final-image {
+        max-width: 100vw !important;
+        width: 100vw !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .souffle-title {
+        font-size: 1rem !important;
+    }
+    .souffle-subtitle {
+        font-size: 0.9rem !important;
+    }
+    .project-content h2,
+    .project-brief-label,
+    .medium-fidelity-label,
+    .final-prototype-label,
+    .reflection-section-label,
+    .conclusion-section-label,
+    .choosing-feature-label,
+    .capsule-view-label,
+    .pinpointing-solution-label {
+        font-size: 1rem !important;
+    }
+    .project-content p,
+    .project-content li,
+    .project-brief-desc,
+    .medium-fidelity-desc,
+    .choosing-feature-desc,
+    .pinpointing-solution-desc,
+    .conclusion-desc {
+        font-size: 0.8rem !important;
+    }
+}
+
 .problem-section {
     margin-left: -190px;
     max-width: 1000px;
