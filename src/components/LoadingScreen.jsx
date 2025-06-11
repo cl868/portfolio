@@ -77,7 +77,7 @@ export const LoadingScreen = ({ onComplete }) => {
     );
 };
 
-// Add this to globals.css if not already there
+
 const styles = `
   .shadow-glow {
     box-shadow: 0 0 15px #3b82f6;
