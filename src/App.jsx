@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import "./App.css";
 import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
@@ -43,7 +43,7 @@ function App() {
   }, [isLoaded]);
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <ScrollToHash />
       {!isLoaded ? (
         <LoadingScreen onComplete={() => {
