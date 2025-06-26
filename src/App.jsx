@@ -62,7 +62,7 @@ function App() {
                 <Contact />
               </>
             } />
-            <Route path="/souffle" element={<Souffle />} />
+            <Route path="souffle" element={<Souffle />} />
           </Routes>
         </>
       )}

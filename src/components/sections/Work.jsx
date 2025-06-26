@@ -1,6 +1,27 @@
 import './Work.css';
+import { Link, useNavigate } from 'react-router-dom';
 
 export const Work = () => {
+    const navigate = useNavigate();
+    const handleSouffleClick = (e) => {
+        e.preventDefault();
+        navigate('souffle');
+        window.scrollTo({ top: 0, behavior: 'instant' });
+    };
+    const handleContactClick = (e) => {
+        e.preventDefault();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else {
+            // fallback: navigate to home and scroll after render
+            navigate('/');
+            setTimeout(() => {
+                const el = document.getElementById('contact');
+                if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 300);
+        }
+    };
     return (
         <section id="work" className="work-section">
             <div className="work-container">
@@ -27,10 +48,10 @@ export const Work = () => {
                             <div className="work-item-subtitle">MOBILE | Gen-AI | B2C</div>
                             <h3 className="work-item-title">SOUFFLÉ</h3>
                             <p className="work-item-description">AI-powered social platform for discovering, sharing, and booking curated travel experiences from friends and creators</p>
-                            <a href="/souffle" className="work-item-button">Learn More</a>
+                            <button className="work-item-button" onClick={handleSouffleClick}>Learn More</button>
                         </div>
                         <div className="work-item-image">
-                            <a href="/souffle">
+                            <a href="#" onClick={handleSouffleClick}>
                                 <img src="/Souffle.png" alt="Souffle" />
                             </a>
                         </div>
@@ -43,7 +64,7 @@ export const Work = () => {
                             <div className="work-item-subtitle">MOBILE | AI | B2C</div>
                             <h3 className="work-item-title">CHEL</h3>
                             <p className="work-item-description">Fashion investment platform that helps users track, value, and strategically resell their wardrobe, powered by AI</p>
-                            <a href="#contact" className="work-item-button">Learn More</a>
+                            <button className="work-item-button" onClick={handleContactClick}>Learn More</button>
                         </div>
                         <div className="work-item-image">
                             <a href="#contact">
